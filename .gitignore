@@ -1,0 +1,22 @@
+# Local datasets and generated review cache
+/data/
+/ai/review_embeddings.parquet
+
+# Local credentials
+.env
+.env.*
+!.env.example
+/cred.txt
+/airflow/profile.yml
+
+# Python environments and bytecode
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Generated logs and build artifacts
+logs/
+target/
+dbt_packages/
+.DS_Store
